@@ -59,7 +59,7 @@ const userController = {
         )
             .then(userData => {
                 !userData
-                    ? res.status(404).json({ message: 'Failed to Add Friend: No user found with this id' })
+                    ? res.status(404).json({ message: 'No user found with this id' })
                     : res.json(userData);
             })
             .catch(err => res.json(err));
@@ -73,7 +73,7 @@ const userController = {
         )
             .then(userData => {
                 !userData
-                    ? res.status(404).json({ message: 'Failed to Add Friend: No user found with this id' })
+                    ? res.status(404).json({ message: 'No user found with this id' })
                     : res.json(userData);
             })
             .catch(err => res.json(err));
