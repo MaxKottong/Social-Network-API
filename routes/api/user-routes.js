@@ -11,7 +11,7 @@ router.route('/:userId')
     .delete(userController.deleteUser);
 
 router.route('/:userId/friends/:friendId')
-    .post(userController.addFriend)
+    .put(userController.addFriend)
     .delete(userController.deleteFriend);
 
 module.exports = router;
