@@ -11,7 +11,7 @@ const thoughtController = {
         models.Thought.findById(params.thoughtId)
             .then(thoughtData =>
                 !thoughtData
-                    ? res.status(404).json({ message: "Invalid thought id!" })
+                    ? res.status(404).json({ message: "Invalid thought id" })
                     : res.json({ message: 'success', thoughtData })
             )
             .catch(err => res.status(500).json(err));
