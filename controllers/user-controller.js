@@ -10,7 +10,7 @@ const userController = {
                 console.log(err);
                 res.status(500).json(err);
             });
-    },
+    }, 
 
     getUser({ params }, res) {
         User.findOne({ _id: params.userId })
