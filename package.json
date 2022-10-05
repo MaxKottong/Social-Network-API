@@ -3,5 +3,23 @@
     "dayjs": "^1.11.5",
     "express": "^4.18.1",
     "mongoose": "^6.6.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "social-network-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxKottong/Social-Network-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxKottong/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/MaxKottong/Social-Network-API#readme"
 }
